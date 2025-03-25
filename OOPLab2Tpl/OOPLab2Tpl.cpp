@@ -3,8 +3,8 @@
 
 #include <iostream>
 using namespace std;
-#include "Tasks.h"
-#include "Examples.h"
+#include "Tasks.cpp"
+#include "Examples.cpp"
 
 
 /// @brief 
@@ -23,10 +23,10 @@ int main()
 
         switch (ch) {
         case '1': task1();   break;
-        case '2': task1();   break;
-        case '3': task1();   break;
-        case '4': task1();   break;
-		case '5':  Examples(); break;
+        case '2': task3_encrypt();   break;
+        case '3': task3_decrypt();   break;
+        case '4': task4(); break;  
+		case '5': Examples(); break;
 		case '6': return 0;
 	    }
         cout << " Press any key and enter\n";
